@@ -1,0 +1,1 @@
+# Smart-Document-Reader-Automated-Text-Extraction-and-Summarization
