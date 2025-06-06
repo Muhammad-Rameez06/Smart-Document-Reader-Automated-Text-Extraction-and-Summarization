@@ -1,11 +1,10 @@
-#ocr_model_function_for_use_in_fastAPI
-
+#ocr_model_function_for_use_in_FastAPI
 import cv2
 import numpy as np
 import easyocr
 
 reader = easyocr.Reader(['en'])
-
+#function that will use in fastAPI 
 def extract_text_from_image_bytes(image_bytes):
     image = cv2.imdecode(np.frombuffer(image_bytes, np.uint8), cv2.IMREAD_COLOR)
 
