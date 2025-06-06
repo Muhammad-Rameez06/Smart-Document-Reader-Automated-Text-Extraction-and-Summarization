@@ -1,4 +1,4 @@
-# ocr_engine.py
+#ocr_model_function_for_use_in_fastAPI
 
 import cv2
 import numpy as np

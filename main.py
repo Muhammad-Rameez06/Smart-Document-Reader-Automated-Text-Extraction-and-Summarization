@@ -1,5 +1,5 @@
 # main.py
-
+# FastAPI for OCR
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
 from model import extract_text_from_image_bytes
